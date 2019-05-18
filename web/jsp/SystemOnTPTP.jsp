@@ -44,7 +44,7 @@
     //---keep until debugged
     String SoTPTP = TPTPWorld + "/SystemExecution/SystemOnTPTP";
     String responseLine;
-    String SystemOnTPTPFormReplyURL = "http://www.cs.miami.edu/~tptp/cgi-bin/SystemOnTPTPFormReply";
+    String SystemOnTPTPFormReplyURL = "http://tptp.cs.miami.edu/cgi-bin/SystemOnTPTPFormReply";
     BufferedReader reader;
 
     //----Code for building the query part
@@ -107,7 +107,7 @@
   <script type="text/javascript">//<![CDATA[
     var tstp_dump;
     function openSoTSTP (dump) {
-      var tstp_url = 'http://www.cs.miami.edu/~tptp/cgi-bin/SystemOnTSTP';
+      var tstp_url = 'http://tptp.cs.miami.edu/cgi-bin/SystemOnTSTP';
       var tstp_browser = window.open(tstp_url, '_blank');
       tstp_dump = dump;
     }
