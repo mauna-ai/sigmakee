@@ -43,7 +43,7 @@ RUN su -l sumo -c "mkdir /home/sumo/workspace; mkdir /home/sumo/Programs/; mkdir
     su -l sumo -c "cd /home/sumo/Programs; unzip apache-tomcat-9.0.10.zip" && \
     su -l sumo -c "cd /home/sumo/Programs; mv E.tgz bins; mv apache-tomcat-9.0.10.zip bins" && \
     su -l sumo -c "cd /home/sumo/Programs/apache-tomcat-9.0.10/bin/; chmod 777 *" && \
-    su -l sumo -c "cd /home/sumo/workspace; git clone https://github.com/ontologyportal/sigmakee; git clone https://github.com/ontologyportal/sumo" && \
+    su -l sumo -c "cd /home/sumo/workspace; git clone https://github.com/mauna-ai/sigmakee; git clone https://github.com/ontologyportal/sumo" && \
     su -l sumo -c "cd /home/sumo; mkdir .sigmakee; cd .sigmakee; mkdir KBs; cp -R /home/sumo/workspace/sumo/* KBs; cp /home/sumo/workspace/sigmakee/config.xml /home/sumo/.sigmakee/KBs" && \
     su -l sumo -c "sed -i 's/theuser/sumo/g' /home/sumo/.sigmakee/KBs/config.xml" && \
     su -l sumo -c "sed -i 's/~/\/home\/sumo/g' /home/sumo/.sigmakee/KBs/config.xml" && \
