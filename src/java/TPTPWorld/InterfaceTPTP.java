@@ -38,7 +38,7 @@ public class InterfaceTPTP {
 	public static ArrayList<String> systemListRemote = new ArrayList<String>();
 
 	public static String SystemOnTPTPFormReplyURL =
-		"http://www.cs.miami.edu/~tptp/cgi-bin/SystemOnTPTPFormReply";
+		"http://tptp.cs.miami.edu/cgi-bin/SystemOnTPTPFormReply";
 
 	private static Logger logger;
 	

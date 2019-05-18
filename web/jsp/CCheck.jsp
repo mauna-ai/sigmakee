@@ -46,7 +46,7 @@ String defaultSystemRemote = InterfaceTPTP.defaultSystemRemote;
   var tstp_dump;
   var chosenLocation = "Local";                      
   function openSoTSTP (dump) {
-    var tstp_url = 'http://www.cs.miami.edu/~tptp/cgi-bin/SystemOnTSTP';
+    var tstp_url = 'http://tptp.cs.miami.edu/cgi-bin/SystemOnTSTP';
     var tstp_browser = window.open(tstp_url, '_blank');
     tstp_dump = dump;
   }
